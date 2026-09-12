@@ -103,7 +103,7 @@ def predict_approvals(
         if month in [5, 6, 7]:
             return "Summer Peak (May–Jul)"
         elif month in [12, 1]:
-            return "Winter Cycle (Dec–Jan)"
+            return "Holiday Season (Dec–Jan)"
         elif month in [3, 4]:
             return "Spring Build-up (Mar–Apr)"
         else:
